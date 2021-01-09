@@ -4,9 +4,9 @@ import os
 if __name__ == '__main__':
 
     curDir = os.curdir  # 获取当前执行python文件的文件夹
-    sourceDir = os.path.join(curDir, 'E:\SOTS')#需要修改尺寸的图片所在路径
-    contDir = os.path.join(curDir, 'E:\gt')#目标尺寸的图片所在路径
-    resultDir = os.path.join(curDir, 'E:\SOTS1')#保存图片所在路径
+    sourceDir = os.path.join(curDir, 'E:\SOTS')# 需要修改尺寸的图片所在路径
+    contDir = os.path.join(curDir, 'E:\gt')# 目标尺寸的图片所在路径
+    resultDir = os.path.join(curDir, 'E:\SOTS1')# 保存图片所在路径
 
     sourceimg_list = os.listdir(sourceDir)
     contimg_list = os.listdir(contDir)

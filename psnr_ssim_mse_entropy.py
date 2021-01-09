@@ -7,8 +7,8 @@ from skimage.measure import compare_psnr
 from skimage.measure import shannon_entropy
 from skimage.measure import compare_mse
 parser = argparse.ArgumentParser(description='image_eval')
-parser.add_argument('--orig_path',help='path to orig image dataset', default='origSOTS')#源图片
-parser.add_argument('--recon_path',help='path to recon image dataset', default='55epoch')#目标图片
+parser.add_argument('--orig_path',help='path to orig image dataset', default='origSOTS')# 源图片
+parser.add_argument('--recon_path',help='path to recon image dataset', default='55epoch')# 目标图片
 parser.add_argument('--image_format',help='format of the image', default='png')
 opt = parser.parse_args()
 
